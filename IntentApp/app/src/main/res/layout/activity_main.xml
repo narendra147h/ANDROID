@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/sample_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter any text"/>
+    <Button
+        android:id="@+id/explicit_intent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Explicit Intent" />
+    <Button
+        android:id="@+id/start_service"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Start Service"/>
+    <Button
+        android:id="@+id/bound_service"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Bound Service"/>
+
+    <Button
+        android:id="@+id/send_broadcast"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Send Broadcast"/>
+
+    <Button
+        android:id="@+id/local_broadcast"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Send local Broadcast"/>
+
+    <Button
+        android:id="@+id/implicit_intent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Implicit Intent"/>
+
+    <ImageView
+        android:id="@+id/image"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_gravity="center"
+        />
+
+
+</LinearLayout>
