@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/Home"
+        android:icon="@mipmap/ic_home_black_24dp"
+        android:title="Home"></item>
+
+    <item android:id="@+id/MyAccount"
+        android:icon="@mipmap/ic_account_circle_black_24dp"
+        android:title="My Account"></item>
+
+    <item android:id="@+id/Rewards"
+        android:icon="@mipmap/ic_account_balance_wallet_black_24dp"
+        android:title="Total Rewards"></item>
+
+    <item android:id="@+id/History"
+        android:icon="@mipmap/ic_history_black_24dp"
+        android:title="History"></item>
+    <item android:id="@+id/Setting"
+        android:icon="@mipmap/ic_settings_black_24dp"
+        android:title="Setting"/>
+
+    <item android:id="@+id/Logout"
+        android:icon="@mipmap/ic_arrow_back_black_24dp"
+        android:title="Logout"/>
+
+
+</menu>

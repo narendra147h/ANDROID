@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.mysqlite_project_1.MainActivity">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:text="Login Details"
+        android:textSize="30sp"
+        android:background="#ff00"
+        android:layout_marginTop="10dp"
+        />
+    <EditText
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="80dp"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:id="@+id/Name"
+        android:text="Name"
+        />
+    <EditText
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="80dp"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:id="@+id/UserName"
+        android:text="UserName"
+        />
+    <EditText
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="80dp"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:text="Password"
+        android:id="@+id/Password"
+        />
+    <EditText
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="80dp"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:id="@+id/Phone"
+        android:text="Phone No."
+
+        />
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="Register"
+            android:layout_marginTop="30dp"
+            android:layout_marginLeft="70dp"
+            android:id="@+id/Register"
+            />
+        <Button
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="Show"
+            android:layout_marginTop="30dp"
+            android:layout_marginLeft="70dp"
+            android:id="@+id/Show"
+            />
+
+
+    </LinearLayout>
+
+
+
+
+</LinearLayout>

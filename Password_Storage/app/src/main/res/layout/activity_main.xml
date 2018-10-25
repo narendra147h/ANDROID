@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.locker.password_storage.MainActivity"
+    android:background="@drawable/spass3"
+    android:orientation="vertical"
+    >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/status"
+        android:textColor="@android:color/holo_orange_dark"
+        android:textSize="18sp"
+        android:layout_marginLeft="85dp"
+        android:layout_marginTop="15dp"
+        />
+
+   <EditText
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="70dp"
+        android:layout_marginLeft="85dp"
+        android:hint="Name"
+        android:id="@+id/name"
+       android:textColorHint="#ff0"
+       android:textColor="#ff0"
+        />
+    <EditText
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="85dp"
+        android:hint="Email"
+        android:id="@+id/email"
+        android:textColorHint="#ff0"
+        android:textColor="#ff0"
+        />
+    <EditText
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="85dp"
+        android:hint="Master Password"
+        android:id="@+id/password"
+        android:textColorHint="#ff0"
+        android:password="true"
+        android:textColor="#ff0"
+        />
+    <EditText
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="85dp"
+        android:hint="Confirm Password"
+        android:id="@+id/cpassword"
+        android:textColorHint="#ff0"
+        android:password="true"
+        android:textColor="#ff0"
+        />
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="85dp"
+            android:layout_marginTop="30dp"
+            android:hint="Register"
+            android:textColor="#ff0"
+            android:textColorHint="#ff0"
+            android:background="@android:color/background_dark"
+            android:id="@+id/register"
+            />
+
+
+
+
+    </LinearLayout>
+
+
+
+
+</LinearLayout>

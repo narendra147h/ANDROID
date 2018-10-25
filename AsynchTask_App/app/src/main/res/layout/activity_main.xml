@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.asynchtask_app.MainActivity"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="For Download images Click Here!!!!"
+        android:textColor="@color/colorPrimary"
+        android:background="#f01"
+        />
+    <Button
+        android:layout_width="110dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="30dp"
+        android:text="download"
+        android:textColor="@color/colorAccent"
+        android:background="#f004"
+        android:id="@+id/download"
+        />
+    <ProgressBar
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:scrollbarAlwaysDrawHorizontalTrack="true"
+        style="@style/Widget.AppCompat.ProgressBar.Horizontal"
+        android:max="10"
+        android:layout_marginTop="30dp"
+        android:indeterminate="false"
+        android:padding="4dip"
+        android:id="@+id/progress"
+
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:layout_marginLeft="70dp"
+        android:id="@+id/preport"
+        />
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="70dp"
+
+        android:id="@+id/img"
+        />
+
+
+</LinearLayout>

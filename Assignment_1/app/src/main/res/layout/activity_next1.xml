@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="myfirst.com.assignment_1.Login"
+    android:orientation="vertical"
+    android:background="#adb6fd"
+    >
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="40dp"
+    android:layout_marginTop="30dp"
+    android:id="@+id/status"
+    />
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="40dp"
+    android:layout_marginTop="30dp"
+    android:id="@+id/s1"
+    />
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="80dp"
+        android:layout_marginTop="300dp"
+        android:text="Next"
+        android:background="@color/colorPrimaryDark"
+        android:textColor="#bfe5ac"
+        android:id="@+id/next1"
+        />
+
+
+</android.support.v7.widget.LinearLayoutCompat>

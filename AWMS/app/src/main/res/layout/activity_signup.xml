@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@android:color/background_light"
+    >
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_marginTop="20dp"
+        android:layout_height="40dp"
+        android:hint="Name"
+        android:textColorHint="@color/secondary_text"
+
+        android:textColor="@color/primary_text"
+        android:id="@+id/name"
+        android:inputType="text"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="10dp"
+        android:hint="Email"
+        android:textColorHint="@color/secondary_text"
+
+        android:textColor="@color/primary_text"
+        android:id="@+id/email"
+        android:inputType="textEmailAddress"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="10dp"
+        android:hint="password"
+        android:textColorHint="@color/secondary_text"
+
+        android:textColor="@color/primary_text"
+        android:id="@+id/password"
+        android:inputType="textPassword"
+        />
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Gender   "
+            android:textColorHint="@color/secondary_text"
+            android:textColor="@color/secondary_text"
+            android:textSize="18sp"
+            android:id="@+id/statusofgender"
+            />
+
+        <RadioGroup
+            android:id="@+id/gender"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <RadioButton
+                android:id="@+id/male"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:baselineAligned="false"
+                android:text="Male" />
+
+            <RadioButton
+                android:id="@+id/female"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Female" />
+
+
+        </RadioGroup>
+
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/address"
+        android:layout_width="match_parent"
+        android:layout_marginTop="10dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textMultiLine"
+        android:hint=" Address"
+        android:textColorHint="@color/secondary_text"
+        android:textColor="@color/primary_text"
+        />
+    <EditText
+        android:id="@+id/pincode"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="number"
+        android:textColorHint="@color/secondary_text"
+        android:textColor="@color/primary_text"
+        android:hint="Pincode"
+        />
+
+    <Button
+        android:id="@+id/signup"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="30dp"
+        android:onClick="onClick"
+        android:text="Register"
+        android:textColor="@color/primary_text" />
+
+    <TextView
+        android:id="@+id/already_registered"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:clickable="true"
+        android:text="Already Registered ? Click here"
+        android:textAlignment="center"
+        android:textColor="@color/secondary_text"
+        android:onClick="onClick" />
+
+
+
+</LinearLayout>
